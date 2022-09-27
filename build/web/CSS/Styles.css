@@ -1,0 +1,85 @@
+body 
+{
+    background-color:antiquewhite;
+}
+
+
+.inputform
+{
+    float:left;
+    width:400px;
+    border:2px solid whitesmoke;
+    border-radius:10px;
+    padding:10px;
+    box-shadow: 5px 5px 10px 5px RGBA(146, 168, 209,0.9);
+    background-color:RGBA(146, 168, 209,0.5);
+    
+}
+.inputform table tr td input,textarea,select
+{
+    width:200px;
+    margin-bottom: 3px;
+}
+
+.btn-group 
+{
+    margin:10px;
+}
+input[type='text'], input[type='password'],input[type='date'],input[type='email'],textarea,select
+{
+    border:5px solid whitesmoke;
+    height: 2vw;
+    border-radius: 10px;
+}
+#gender1,#gender2
+{
+    width:10px;
+}
+#submit
+{
+    margin-left:100px;
+    width:100px;
+    background-color: dodgerblue;
+    padding:10px;
+    border:1px solid transparent;
+    z-index: -1;
+    border-bottom-left-radius:15px;
+    border-top-right-radius:15px; 
+    font-size:16px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+#reset{
+    width:100px;
+    background-color: orange;
+    padding:10px;
+    border:1px solid white;
+    z-index: -1;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:15px; 
+}
+.design{
+    background-color:dodgerblue;
+    color:white;
+    text-align: center;
+    padding:5px;
+    box-shadow: 5px 5px 5px 2px dodgerblue;
+    
+}
+
+td 
+{
+    font-size: 18px;
+    font-variant: small-caps;
+}
+
+select option 
+{
+    font-size:15px;
+}
+input[type='radio']
+{
+    width: 2vw;
+    height: 2vw;
+}
